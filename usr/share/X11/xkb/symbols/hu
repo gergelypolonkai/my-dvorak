@@ -1,0 +1,70 @@
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    name[Group1]="Hungarian (Dvorak)";
+
+    key <TLDE>  { [ grave,        asciitilde,  notsign,              paragraph        ] };
+    key <AE01>  { [ 1,            exclam,      dead_caron,           dead_cedilla     ] };
+    key <AE02>  { [ 2,            at,          twosubscript,         twosuperior      ] };
+    key <AE03>  { [ 3,            asciicircum, threesuperior,        dead_circumflex  ] };
+    key <AE04>  { [ 4,            dollar,      EuroSign,             currency         ] };
+    key <AE05>  { [ 5,            percent,     degree,               U2030            ] };
+    key <AE06>  { [ 6,            dead_breve,  dead_grave,           copyright        ] };
+    key <AE07>  { [ 7,            ampersand,   dead_tilde,           registered       ] };
+    key <AE08>  { [ 8,            asterisk,    enfilledcircbullet,   trademark        ] };
+    key <AE09>  { [ 9,            parenleft,   U2713,                U2714            ] };
+    key <AE10>  { [ 0,            parenright,  U2717,                U2718            ] };
+    key <AE11>  { [ minus,        underscore,  endash,               U2050            ] };
+    key <AE12>  { [ equal,        plus,        multiply,             plusminus        ] };
+
+    key <AD01>  { [ slash,        question,    dead_acute,           dead_diaeresis   ] };
+    key <AD02>  { [ comma,        less,        odiaeresis,           Odiaeresis       ] };
+    key <AD03>  { [ period,       greater,     ellipsis,             dead_doubleacute ] };
+    key <AD04>  { [ p,            P,           udiaeresis,           Udiaeresis       ] };
+    key <AD05>  { [ y,            Y,           yacute,               Yacute           ] };
+    key <AD06>  { [ f,            F,           idotless,             Iabovedot        ] };
+    key <AD07>  { [ g,            G,           gbreve,               Gbreve           ] };
+    key <AD08>  { [ c,            C,           ccaron,               Ccaron           ] };
+    key <AD09>  { [ r,            R,           rcedilla,             Rcedilla         ] };
+    key <AD10>  { [ l,            L,           scedilla,             Scedilla         ] };
+    key <AD11>  { [ bracketleft,  braceleft,   NoSymbol,             NoSymbol         ] };
+    key <AD12>  { [ bracketright, braceright,  NoSymbol,             NoSymbol         ] };
+
+    key <AC01>  { [ a,            A,           aacute,               Aacute           ] };
+    key <AC02>  { [ o,            O,           oacute,               Oacute           ] };
+    key <AC03>  { [ e,            E,           eacute,               Eacute           ] };
+    key <AC04>  { [ u,            U,           uacute,               Uacute           ] };
+    key <AC05>  { [ i,            I,           iacute,               Iacute           ] };
+    key <AC06>  { [ d,            D,           eth,                  ETH              ] };
+    key <AC07>  { [ h,            H,           NoSymbol,             NoSymbol         ] };
+    key <AC08>  { [ t,            T,           thorn,                THORN            ] };
+    key <AC09>  { [ n,            N,           ntilde,               Ntilde           ] };
+    key <AC10>  { [ s,            S,           scaron,               Scaron           ] };
+    key <AC11>  { [ apostrophe,   quotedbl,    minutes,              seconds          ] };
+    key <BKSL>  { [ numbersign,   bar,         section,              NoSymbol         ] };
+
+    key <LSGT>  { [ backslash,    bar,         NoSymbol,             NoSymbol         ] };
+    key <AB01>  { [ semicolon,    colon,       ucircumflex,          Ucircumflex      ] };
+    key <AB02>  { [ q,            Q,           odoubleacute,         Odoubleacute     ] };
+    key <AB03>  { [ j,            J,           ediaeresis,           Ediaeresis       ] };
+    key <AB04>  { [ k,            K,           udoubleacute,         Udoubleacute     ] };
+    key <AB05>  { [ x,            X,           idiaeresis,           Idiaeresis       ] };
+    key <AB06>  { [ b,            B,           leftdoublequotemark,  U201B            ] };
+    key <AB07>  { [ m,            M,           doublelowquotemark,   guillemotright   ] };
+    key <AB08>  { [ w,            W,           rightdoublequotemark, guillemotleft    ] };
+    key <AB09>  { [ v,            V,           leftsinglequotemark,  U203A            ] };
+    key <AB10>  { [ z,            Z,           rightsinglequotemark, U2039            ] };
+
+    key <RALT>  {
+        type[Group1]="ONE_LEVEL",
+        symbols = [ ISO_Level3_Shift ]
+    };
+    key <RWIN>  { [ Multi_key                                                         ] };
+    key <UP>    { [ Up,           Up,          uparrow,              NoSymbol         ] };
+    key <DOWN>  { [ Down,         Down,        downarrow,            NoSymbol         ] };
+    key <LEFT>  { [ Left,         Left,        leftarrow,            NoSymbol         ] };
+    key <RGHT>  { [ Right,        Right,       rightarrow,           NoSymbol         ] };
+
+    key.type[Group1] = "ONE_LEVEL";
+    modifier_map Mod5 { <LVL3> };
+    replace key <LVL3> { symbols[Group1] = [ ISO_Level3_Shift ] };
+};

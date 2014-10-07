@@ -1,0 +1,13 @@
+    <layout>
+      <configItem>
+        <name>hu</name>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>Hungarian (102/dvorak/dead keys)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
