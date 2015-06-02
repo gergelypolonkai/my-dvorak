@@ -16,7 +16,7 @@ xkb_symbols "dvorak" {
     key <AE11>  { [ minus,        underscore,  endash,               U2050            ] };
     key <AE12>  { [ equal,        plus,        multiply,             plusminus        ] };
 
-    key <AD01>  { [ slash,        question,    dead_acute,           dead_diaeresis   ] };
+    key <AD01>  { [ slash,        question,    ae,                   AE               ] };
     key <AD02>  { [ comma,        less,        odiaeresis,           Odiaeresis       ] };
     key <AD03>  { [ period,       greater,     ellipsis,             dead_doubleacute ] };
     key <AD04>  { [ p,            P,           udiaeresis,           Udiaeresis       ] };
@@ -26,7 +26,7 @@ xkb_symbols "dvorak" {
     key <AD08>  { [ c,            C,           ccaron,               Ccaron           ] };
     key <AD09>  { [ r,            R,           rcedilla,             Rcedilla         ] };
     key <AD10>  { [ l,            L,           scedilla,             Scedilla         ] };
-    key <AD11>  { [ bracketleft,  braceleft,   NoSymbol,             NoSymbol         ] };
+    key <AD11>  { [ bracketleft,  braceleft,   dead_acute,           dead_diaeresis   ] };
     key <AD12>  { [ bracketright, braceright,  NoSymbol,             NoSymbol         ] };
 
     key <AC01>  { [ a,            A,           aacute,               Aacute           ] };
