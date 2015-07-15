@@ -35,7 +35,7 @@ xkb_symbols "dvorak" {
     key <AC04>  { [ u,            U,           uacute,               Uacute           ] };
     key <AC05>  { [ i,            I,           iacute,               Iacute           ] };
     key <AC06>  { [ d,            D,           eth,                  ETH              ] };
-    key <AC07>  { [ h,            H,           NoSymbol,             NoSymbol         ] };
+    key <AC07>  { [ h,            H,           ae,                   AE               ] };
     key <AC08>  { [ t,            T,           thorn,                THORN            ] };
     key <AC09>  { [ n,            N,           ntilde,               Ntilde           ] };
     key <AC10>  { [ s,            S,           scaron,               Scaron           ] };
