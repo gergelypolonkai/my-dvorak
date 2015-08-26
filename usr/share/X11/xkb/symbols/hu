@@ -27,7 +27,7 @@ xkb_symbols "dvorak" {
     key <AD09>  { [ r,            R,           rcedilla,             Rcedilla         ] };
     key <AD10>  { [ l,            L,           scedilla,             Scedilla         ] };
     key <AD11>  { [ bracketleft,  braceleft,   dead_acute,           dead_diaeresis   ] };
-    key <AD12>  { [ bracketright, braceright,  NoSymbol,             NoSymbol         ] };
+    key <AD12>  { [ bracketright, braceright,  dead_ogonek,          dead_macron      ] };
 
     key <AC01>  { [ a,            A,           aacute,               Aacute           ] };
     key <AC02>  { [ o,            O,           oacute,               Oacute           ] };
@@ -35,12 +35,12 @@ xkb_symbols "dvorak" {
     key <AC04>  { [ u,            U,           uacute,               Uacute           ] };
     key <AC05>  { [ i,            I,           iacute,               Iacute           ] };
     key <AC06>  { [ d,            D,           eth,                  ETH              ] };
-    key <AC07>  { [ h,            H,           ae,                   AE               ] };
+    key <AC07>  { [ h,            H,           dead_horn,            dead_hook        ] };
     key <AC08>  { [ t,            T,           thorn,                THORN            ] };
     key <AC09>  { [ n,            N,           ntilde,               Ntilde           ] };
     key <AC10>  { [ s,            S,           scaron,               Scaron           ] };
     key <AC11>  { [ apostrophe,   quotedbl,    minutes,              seconds          ] };
-    key <BKSL>  { [ numbersign,   bar,         section,              NoSymbol         ] };
+    key <BKSL>  { [ numbersign,   bar,         section,              dead_stroke      ] };
 
     key <LSGT>  { [ backslash,    bar,         NoSymbol,             NoSymbol         ] };
     key <AB01>  { [ semicolon,    colon,       ucircumflex,          Ucircumflex      ] };
